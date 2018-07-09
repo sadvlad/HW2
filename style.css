@@ -1,0 +1,66 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+.choice-grid {
+width: 700px;
+display: flex;
+flex-direction: row;
+justify-content: space-between ;
+flex-wrap: wrap;
+margin: auto;
+}
+.perl { 
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+padding-bottom: 20px;
+width: 32%;
+flex-direction: column;
+background-color: #f4f4f4;
+outline: 2px solid #dcdcdc;
+}
+
+
+image .checkbox {
+ margin: auto;
+}
+
+.perl img {
+margin: auto;
+padding-top: 10px;
+width: 200px;
+}
+
+.perl .checkbox {margin: initial;
+  margin-left: 8px;
+}
+
+section.results{
+	padding: 20px 20px;
+	margin: auto;
+}
+
+#restart:hover{
+  background-color:#e0e0e0;
+}
+
+h2:hover{
+ background-color:#e0e0e0;
+
+}
+
+div.hidden{
+display: flex;
+display: none;
+height: 50px;
+background-color: #cecece;
+}
+
+
+
+div.restart{
+height: 50px;
+background-color: #cecece;
+}
+
+[data-choice-id='one']{
+background-color: #cfe3ff;
+}

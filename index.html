@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- TODO(you): Make whatever changes needed to complete the homework! -->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Adopt A Dog And We'll Reveal A Deep Truth About You</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+          <h1>CS193x</h1>
+          <div>
+            <span>YAY</span>
+            <span>INT</span>
+            <span>ER</span>
+            <span>NET</span>
+          </div>
+      </header>
+      <h1>Adopt A Dog And We'll Reveal A Deep Truth About You</h1>
+      <p>This is your pupper of truth.</p>
+      <p id="author">
+        By Amy Xu and Zach Maurer
+      </p>
+
+      <section class="question-name">
+        <h1>Pick a pup:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div class="perl"  data-choice-id="blep" data-question-id="one">
+          <img src="images/blepdog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png" width="50px" height="50px" />
+        </div>
+
+        <div class="perl" data-choice-id="happy" data-question-id="one">
+          <img src="./images/happydog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png" />
+        </div>
+
+        <div class="perl" data-choice-id="sleeping" data-question-id="one">
+          <img src="./images/sleepingdog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png" />
+        </div>
+
+        <div class="perl" data-choice-id="dopey" data-question-id="one">
+          <img src="./images/dopeydog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"  />
+        </div>
+
+        <div class="perl" data-choice-id="burger" data-question-id="one">
+          <img src="./images/burgerdog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png" />
+        </div>
+
+        <div class="perl" data-choice-id="cart" data-question-id="one">
+          <img src="./images/cartdog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"  />
+        </div>
+
+        <div class="perl" data-choice-id="nerd" data-question-id="one">
+          <img src="./images/nerddog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="shy" data-question-id="one">
+          <img src="./images/shydog.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="sleepy" data-question-id="one">
+          <img src="./images/sleepydog.jpg" width="210px" />
+          <img class="checkbox" src="images/unchecked.png"  />
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a dog bed:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div class="perl" data-choice-id="blep" data-question-id="two">
+          <img src="images/blepbed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="happy" data-question-id="two">
+          <img src="./images/happybed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png" />
+        </div>
+
+        <div class="perl" data-choice-id="sleeping" data-question-id="two">
+          <img src="./images/sleepingbed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="dopey" data-question-id="two">
+          <img src="./images/dopeybed.jpg"width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="burger" data-question-id="two">
+          <img src="./images/burgerbed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="cart" data-question-id="two">
+          <img src="./images/cartbed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="nerd" data-question-id="two">
+          <img src="./images/nerdbed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="shy" data-question-id="two">
+          <img src="./images/shybed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="sleepy" data-question-id="two">
+          <img src="./images/sleepybed.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a toy:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div class="perl" data-choice-id="blep" data-question-id="three">
+          <img src="images/bleptoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data class="perl"-choice-id="happy" data-question-id="three">
+          <img src="./images/happytoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="sleeping" data-question-id="three">
+          <img src="./images/sleepingtoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div  class="perl" data-choice-id="dopey" data-question-id="three">
+          <img src="./images/dopeytoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="burger" data-question-id="three">
+          <img src="./images/burgertoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="cart" data-question-id="three">
+          <img src="./images/carttoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="nerd" data-question-id="three">
+          <img src="./images/nerdtoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="shy" data-question-id="three">
+          <img src="./images/shytoy.jpg" width="210px" />
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div class="perl" data-choice-id="sleepy" data-question-id="three">
+          <img src="./images/sleepytoy.jpg" width="210px"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="results">
+        <h1></h1>
+        <p></p>
+        <div id="restart" class="hidden">
+          <h2>Restart quiz</h2>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
